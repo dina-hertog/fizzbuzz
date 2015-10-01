@@ -53,11 +53,11 @@ b = int(buzz)
 
 for x in range(1, n):
     if x%f ==0 and x%b == 0:
-        print("fizzbuzz")
+        print("FizzBuzz")
     elif x%f ==0:
-        print("fizz")
+        print("Fizz")
     elif x%b ==0:
-        print("buzz")
+        print("Buzz")
     else:
         print(x)
 
