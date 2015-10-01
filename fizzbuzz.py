@@ -45,11 +45,19 @@ Fizz
 Buzz
 """
 num = input("How many numbers shall we print?")
-input("For multiples of what number shall we print 'Fizz'?")
-input("For multiples of what number shall we print 'Buzz'?")
-
+fizz = input("For multiples of what number shall we print 'Fizz'?")
+buzz = input("For multiples of what number shall we print 'Buzz'?")
 n = int(num)
+f = int(fizz)
+b = int(buzz)
 
-for x in range(1, n)
-
+for x in range(1, n):
+    if x%f ==0 and x%b == 0:
+        print("fizzbuzz")
+    elif x%f ==0:
+        print("fizz")
+    elif x%b ==0:
+        print("buzz")
+    else:
+        print(x)
 
