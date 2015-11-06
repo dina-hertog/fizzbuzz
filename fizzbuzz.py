@@ -47,7 +47,7 @@ Buzz
 num = input("How many numbers shall we print?")
 fizz = input("For multiples of what number shall we print 'Fizz'?")
 buzz = input("For multiples of what number shall we print 'Buzz'?")
-n = int(num)
+n = int(num)+1
 f = int(fizz)
 b = int(buzz)
 
